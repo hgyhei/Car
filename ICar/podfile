@@ -1,0 +1,6 @@
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'YYModel'
+pod 'SDWebImage'
+pod ‘WMPageController’
+pod "MBProgressHUD"

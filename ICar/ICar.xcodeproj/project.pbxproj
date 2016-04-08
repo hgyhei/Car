@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		606A6AC4266FA517F8962964 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA64A99E93D9AC03773700E /* libPods.a */; };
+		856220B11CB6757A00438507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 856220B01CB6757A00438507 /* main.m */; };
+		856220B41CB6757A00438507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 856220B31CB6757A00438507 /* AppDelegate.m */; };
+		856220BA1CB6757A00438507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856220B81CB6757A00438507 /* Main.storyboard */; };
+		856220BF1CB6757A00438507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856220BD1CB6757A00438507 /* LaunchScreen.storyboard */; };
+		856220CA1CB6757A00438507 /* ICarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 856220C91CB6757A00438507 /* ICarTests.m */; };
+		856220D51CB6757A00438507 /* ICarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 856220D41CB6757A00438507 /* ICarUITests.m */; };
+		856220E51CB6758A00438507 /* CarConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 856220E31CB6758A00438507 /* CarConst.m */; settings = {ASSET_TAGS = (); }; };
+		856220EE1CB6759100438507 /* NSObject+Netwoking.m in Sources */ = {isa = PBXBuildFile; fileRef = 856220E71CB6759100438507 /* NSObject+Netwoking.m */; settings = {ASSET_TAGS = (); }; };
+		856220EF1CB6759100438507 /* NSObject+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 856220E91CB6759100438507 /* NSObject+Parse.m */; settings = {ASSET_TAGS = (); }; };
+		856220F01CB6759100438507 /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 856220EB1CB6759100438507 /* UIScrollView+Refresh.m */; settings = {ASSET_TAGS = (); }; };
+		856220F11CB6759100438507 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 856220ED1CB6759100438507 /* UIView+HUD.m */; settings = {ASSET_TAGS = (); }; };
+		856220F51CB6766200438507 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856220F41CB6766200438507 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		856220FA1CB6769B00438507 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 856220F91CB6769B00438507 /* NetManager.m */; settings = {ASSET_TAGS = (); }; };
+		856220FD1CB6773C00438507 /* LatesNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 856220FC1CB6773C00438507 /* LatesNews.m */; settings = {ASSET_TAGS = (); }; };
+		856221011CB67CE000438507 /* LatesNewsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 856221001CB67CE000438507 /* LatesNewsViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		85789B981CB74476000A5120 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789B961CB74476000A5120 /* NewsTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		85789B991CB74476000A5120 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85789B971CB74476000A5120 /* NewsTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		85789B9D1CB74697000A5120 /* ICarTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789B9C1CB74697000A5120 /* ICarTabViewController.m */; settings = {ASSET_TAGS = (); }; };
+		85789BA01CB755B6000A5120 /* HomeLatestNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789B9F1CB755B6000A5120 /* HomeLatestNewsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		85789BAB1CB77C56000A5120 /* ICarWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789BAA1CB77C56000A5120 /* ICarWebViewController.m */; settings = {ASSET_TAGS = (); }; };
+		85789BAE1CB77CCE000A5120 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789BAD1CB77CCE000A5120 /* UIBarButtonItem+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		85789BB11CB77D4E000A5120 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789BB01CB77D4E000A5120 /* UIView+SetRect.m */; settings = {ASSET_TAGS = (); }; };
+		85789BB71CB78F8F000A5120 /* HomeGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789BB61CB78F8F000A5120 /* HomeGuideViewController.m */; settings = {ASSET_TAGS = (); }; };
+		85789BBA1CB78FE9000A5120 /* HomeNewCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789BB91CB78FE9000A5120 /* HomeNewCarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		85789BBD1CB7903E000A5120 /* HomeTestAndCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789BBC1CB7903E000A5120 /* HomeTestAndCommentViewController.m */; settings = {ASSET_TAGS = (); }; };
+		85789BC01CB790A0000A5120 /* HomeMarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789BBF1CB790A0000A5120 /* HomeMarketViewController.m */; settings = {ASSET_TAGS = (); }; };
+		85789BC61CB7983E000A5120 /* UIImage+initWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789BC51CB7983E000A5120 /* UIImage+initWithColor.m */; settings = {ASSET_TAGS = (); }; };
+		85789BD01CB7A118000A5120 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789BCF1CB7A118000A5120 /* BaseViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		85789BD71CB7A89C000A5120 /* ICarLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85789BD61CB7A89C000A5120 /* ICarLoopView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		856220C61CB6757A00438507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 856220A41CB6757A00438507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 856220AB1CB6757A00438507;
+			remoteInfo = ICar;
+		};
+		856220D11CB6757A00438507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 856220A41CB6757A00438507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 856220AB1CB6757A00438507;
+			remoteInfo = ICar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54CB7ECFEE5F59435FE5D7CA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA64A99E93D9AC03773700E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		856220AC1CB6757A00438507 /* ICar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		856220B01CB6757A00438507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		856220B21CB6757A00438507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		856220B31CB6757A00438507 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		856220B91CB6757A00438507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		856220BE1CB6757A00438507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		856220C01CB6757A00438507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856220C51CB6757A00438507 /* ICarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		856220C91CB6757A00438507 /* ICarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICarTests.m; sourceTree = "<group>"; };
+		856220CB1CB6757A00438507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856220D01CB6757A00438507 /* ICarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		856220D41CB6757A00438507 /* ICarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICarUITests.m; sourceTree = "<group>"; };
+		856220D61CB6757A00438507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856220E21CB6758A00438507 /* CarConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarConst.h; sourceTree = "<group>"; };
+		856220E31CB6758A00438507 /* CarConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarConst.m; sourceTree = "<group>"; };
+		856220E41CB6758A00438507 /* GYCar.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYCar.pch; sourceTree = "<group>"; };
+		856220E61CB6759100438507 /* NSObject+Netwoking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Netwoking.h"; sourceTree = "<group>"; };
+		856220E71CB6759100438507 /* NSObject+Netwoking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Netwoking.m"; sourceTree = "<group>"; };
+		856220E81CB6759100438507 /* NSObject+Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Parse.h"; sourceTree = "<group>"; };
+		856220E91CB6759100438507 /* NSObject+Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Parse.m"; sourceTree = "<group>"; };
+		856220EA1CB6759100438507 /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		856220EB1CB6759100438507 /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		856220EC1CB6759100438507 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		856220ED1CB6759100438507 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		856220F41CB6766200438507 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		856220F81CB6769B00438507 /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
+		856220F91CB6769B00438507 /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
+		856220FB1CB6773C00438507 /* LatesNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatesNews.h; sourceTree = "<group>"; };
+		856220FC1CB6773C00438507 /* LatesNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatesNews.m; sourceTree = "<group>"; };
+		856220FF1CB67CE000438507 /* LatesNewsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatesNewsViewModel.h; sourceTree = "<group>"; };
+		856221001CB67CE000438507 /* LatesNewsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatesNewsViewModel.m; sourceTree = "<group>"; };
+		85789B951CB74476000A5120 /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		85789B961CB74476000A5120 /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		85789B971CB74476000A5120 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		85789B9B1CB74697000A5120 /* ICarTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICarTabViewController.h; sourceTree = "<group>"; };
+		85789B9C1CB74697000A5120 /* ICarTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICarTabViewController.m; sourceTree = "<group>"; };
+		85789B9E1CB755B6000A5120 /* HomeLatestNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeLatestNewsViewController.h; sourceTree = "<group>"; };
+		85789B9F1CB755B6000A5120 /* HomeLatestNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeLatestNewsViewController.m; sourceTree = "<group>"; };
+		85789BA91CB77C56000A5120 /* ICarWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICarWebViewController.h; sourceTree = "<group>"; };
+		85789BAA1CB77C56000A5120 /* ICarWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICarWebViewController.m; sourceTree = "<group>"; };
+		85789BAC1CB77CCE000A5120 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		85789BAD1CB77CCE000A5120 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		85789BAF1CB77D4E000A5120 /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		85789BB01CB77D4E000A5120 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		85789BB51CB78F8F000A5120 /* HomeGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeGuideViewController.h; sourceTree = "<group>"; };
+		85789BB61CB78F8F000A5120 /* HomeGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeGuideViewController.m; sourceTree = "<group>"; };
+		85789BB81CB78FE9000A5120 /* HomeNewCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNewCarViewController.h; sourceTree = "<group>"; };
+		85789BB91CB78FE9000A5120 /* HomeNewCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNewCarViewController.m; sourceTree = "<group>"; };
+		85789BBB1CB7903E000A5120 /* HomeTestAndCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTestAndCommentViewController.h; sourceTree = "<group>"; };
+		85789BBC1CB7903E000A5120 /* HomeTestAndCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTestAndCommentViewController.m; sourceTree = "<group>"; };
+		85789BBE1CB790A0000A5120 /* HomeMarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMarketViewController.h; sourceTree = "<group>"; };
+		85789BBF1CB790A0000A5120 /* HomeMarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMarketViewController.m; sourceTree = "<group>"; };
+		85789BC41CB7983E000A5120 /* UIImage+initWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+initWithColor.h"; sourceTree = "<group>"; };
+		85789BC51CB7983E000A5120 /* UIImage+initWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+initWithColor.m"; sourceTree = "<group>"; };
+		85789BCE1CB7A118000A5120 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		85789BCF1CB7A118000A5120 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		85789BD51CB7A89C000A5120 /* ICarLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICarLoopView.h; sourceTree = "<group>"; };
+		85789BD61CB7A89C000A5120 /* ICarLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICarLoopView.m; sourceTree = "<group>"; };
+		87981B9556A5E049D4791F65 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		856220A91CB6757A00438507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A6AC4266FA517F8962964 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856220C21CB6757A00438507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856220CD1CB6757A00438507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF4058280182839563863FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BA64A99E93D9AC03773700E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		780D584796AC58E1B1FFD04F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54CB7ECFEE5F59435FE5D7CA /* Pods.debug.xcconfig */,
+				87981B9556A5E049D4791F65 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		856220A31CB6757A00438507 = {
+			isa = PBXGroup;
+			children = (
+				856220AE1CB6757A00438507 /* ICar */,
+				856220C81CB6757A00438507 /* ICarTests */,
+				856220D31CB6757A00438507 /* ICarUITests */,
+				856220AD1CB6757A00438507 /* Products */,
+				780D584796AC58E1B1FFD04F /* Pods */,
+				3DF4058280182839563863FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		856220AD1CB6757A00438507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				856220AC1CB6757A00438507 /* ICar.app */,
+				856220C51CB6757A00438507 /* ICarTests.xctest */,
+				856220D01CB6757A00438507 /* ICarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		856220AE1CB6757A00438507 /* ICar */ = {
+			isa = PBXGroup;
+			children = (
+				85789B9A1CB74634000A5120 /* Controller */,
+				856221051CB68FCF00438507 /* View */,
+				856220F71CB6768500438507 /* NetManager */,
+				856220FE1CB67CCB00438507 /* ViewModel */,
+				856220F61CB6767F00438507 /* Model */,
+				856220F31CB675F600438507 /* Category */,
+				856220F21CB6759900438507 /* Other */,
+				856220B21CB6757A00438507 /* AppDelegate.h */,
+				856220B31CB6757A00438507 /* AppDelegate.m */,
+				856220B81CB6757A00438507 /* Main.storyboard */,
+				856220F41CB6766200438507 /* Images.xcassets */,
+				856220BD1CB6757A00438507 /* LaunchScreen.storyboard */,
+				856220C01CB6757A00438507 /* Info.plist */,
+				856220AF1CB6757A00438507 /* Supporting Files */,
+			);
+			path = ICar;
+			sourceTree = "<group>";
+		};
+		856220AF1CB6757A00438507 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				856220B01CB6757A00438507 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		856220C81CB6757A00438507 /* ICarTests */ = {
+			isa = PBXGroup;
+			children = (
+				856220C91CB6757A00438507 /* ICarTests.m */,
+				856220CB1CB6757A00438507 /* Info.plist */,
+			);
+			path = ICarTests;
+			sourceTree = "<group>";
+		};
+		856220D31CB6757A00438507 /* ICarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				856220D41CB6757A00438507 /* ICarUITests.m */,
+				856220D61CB6757A00438507 /* Info.plist */,
+			);
+			path = ICarUITests;
+			sourceTree = "<group>";
+		};
+		856220F21CB6759900438507 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				856220E21CB6758A00438507 /* CarConst.h */,
+				856220E31CB6758A00438507 /* CarConst.m */,
+				856220E41CB6758A00438507 /* GYCar.pch */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		856220F31CB675F600438507 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				85789BC41CB7983E000A5120 /* UIImage+initWithColor.h */,
+				85789BC51CB7983E000A5120 /* UIImage+initWithColor.m */,
+				85789BAF1CB77D4E000A5120 /* UIView+SetRect.h */,
+				85789BB01CB77D4E000A5120 /* UIView+SetRect.m */,
+				85789BAC1CB77CCE000A5120 /* UIBarButtonItem+Extension.h */,
+				85789BAD1CB77CCE000A5120 /* UIBarButtonItem+Extension.m */,
+				856220E61CB6759100438507 /* NSObject+Netwoking.h */,
+				856220E71CB6759100438507 /* NSObject+Netwoking.m */,
+				856220E81CB6759100438507 /* NSObject+Parse.h */,
+				856220E91CB6759100438507 /* NSObject+Parse.m */,
+				856220EA1CB6759100438507 /* UIScrollView+Refresh.h */,
+				856220EB1CB6759100438507 /* UIScrollView+Refresh.m */,
+				856220EC1CB6759100438507 /* UIView+HUD.h */,
+				856220ED1CB6759100438507 /* UIView+HUD.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		856220F61CB6767F00438507 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				856220FB1CB6773C00438507 /* LatesNews.h */,
+				856220FC1CB6773C00438507 /* LatesNews.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		856220F71CB6768500438507 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				856220F81CB6769B00438507 /* NetManager.h */,
+				856220F91CB6769B00438507 /* NetManager.m */,
+			);
+			name = NetManager;
+			sourceTree = "<group>";
+		};
+		856220FE1CB67CCB00438507 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				856220FF1CB67CE000438507 /* LatesNewsViewModel.h */,
+				856221001CB67CE000438507 /* LatesNewsViewModel.m */,
+				85789BCE1CB7A118000A5120 /* BaseViewModel.h */,
+				85789BCF1CB7A118000A5120 /* BaseViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		856221051CB68FCF00438507 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85789BC21CB7942C000A5120 /* Home */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		85789B9A1CB74634000A5120 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85789BC11CB79419000A5120 /* Main */,
+				85789BA11CB755B9000A5120 /* Home */,
+				85789BD11CB7A3DA000A5120 /* Hot */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		85789BA11CB755B9000A5120 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				85789B9E1CB755B6000A5120 /* HomeLatestNewsViewController.h */,
+				85789B9F1CB755B6000A5120 /* HomeLatestNewsViewController.m */,
+				85789BB81CB78FE9000A5120 /* HomeNewCarViewController.h */,
+				85789BB91CB78FE9000A5120 /* HomeNewCarViewController.m */,
+				85789BBB1CB7903E000A5120 /* HomeTestAndCommentViewController.h */,
+				85789BBC1CB7903E000A5120 /* HomeTestAndCommentViewController.m */,
+				85789BB51CB78F8F000A5120 /* HomeGuideViewController.h */,
+				85789BB61CB78F8F000A5120 /* HomeGuideViewController.m */,
+				85789BBE1CB790A0000A5120 /* HomeMarketViewController.h */,
+				85789BBF1CB790A0000A5120 /* HomeMarketViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		85789BC11CB79419000A5120 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				85789B9B1CB74697000A5120 /* ICarTabViewController.h */,
+				85789B9C1CB74697000A5120 /* ICarTabViewController.m */,
+				85789BA91CB77C56000A5120 /* ICarWebViewController.h */,
+				85789BAA1CB77C56000A5120 /* ICarWebViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		85789BC21CB7942C000A5120 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				85789B951CB74476000A5120 /* NewsTableViewCell.h */,
+				85789B961CB74476000A5120 /* NewsTableViewCell.m */,
+				85789B971CB74476000A5120 /* NewsTableViewCell.xib */,
+				85789BD51CB7A89C000A5120 /* ICarLoopView.h */,
+				85789BD61CB7A89C000A5120 /* ICarLoopView.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		85789BD11CB7A3DA000A5120 /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Hot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		856220AB1CB6757A00438507 /* ICar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856220D91CB6757A00438507 /* Build configuration list for PBXNativeTarget "ICar" */;
+			buildPhases = (
+				466F7EBE1CEF33DA2F3CC09F /* Check Pods Manifest.lock */,
+				856220A81CB6757A00438507 /* Sources */,
+				856220A91CB6757A00438507 /* Frameworks */,
+				856220AA1CB6757A00438507 /* Resources */,
+				6F0E15B6D6DA72BBF8846656 /* Embed Pods Frameworks */,
+				74F1E2730E58B43546167734 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICar;
+			productName = ICar;
+			productReference = 856220AC1CB6757A00438507 /* ICar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		856220C41CB6757A00438507 /* ICarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856220DC1CB6757A00438507 /* Build configuration list for PBXNativeTarget "ICarTests" */;
+			buildPhases = (
+				856220C11CB6757A00438507 /* Sources */,
+				856220C21CB6757A00438507 /* Frameworks */,
+				856220C31CB6757A00438507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				856220C71CB6757A00438507 /* PBXTargetDependency */,
+			);
+			name = ICarTests;
+			productName = ICarTests;
+			productReference = 856220C51CB6757A00438507 /* ICarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		856220CF1CB6757A00438507 /* ICarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856220DF1CB6757A00438507 /* Build configuration list for PBXNativeTarget "ICarUITests" */;
+			buildPhases = (
+				856220CC1CB6757A00438507 /* Sources */,
+				856220CD1CB6757A00438507 /* Frameworks */,
+				856220CE1CB6757A00438507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				856220D21CB6757A00438507 /* PBXTargetDependency */,
+			);
+			name = ICarUITests;
+			productName = ICarUITests;
+			productReference = 856220D01CB6757A00438507 /* ICarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		856220A41CB6757A00438507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = hgy;
+				TargetAttributes = {
+					856220AB1CB6757A00438507 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 8ETW8F6C45;
+					};
+					856220C41CB6757A00438507 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 8ETW8F6C45;
+						TestTargetID = 856220AB1CB6757A00438507;
+					};
+					856220CF1CB6757A00438507 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 8ETW8F6C45;
+						TestTargetID = 856220AB1CB6757A00438507;
+					};
+				};
+			};
+			buildConfigurationList = 856220A71CB6757A00438507 /* Build configuration list for PBXProject "ICar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 856220A31CB6757A00438507;
+			productRefGroup = 856220AD1CB6757A00438507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				856220AB1CB6757A00438507 /* ICar */,
+				856220C41CB6757A00438507 /* ICarTests */,
+				856220CF1CB6757A00438507 /* ICarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		856220AA1CB6757A00438507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856220BF1CB6757A00438507 /* LaunchScreen.storyboard in Resources */,
+				856220F51CB6766200438507 /* Images.xcassets in Resources */,
+				85789B991CB74476000A5120 /* NewsTableViewCell.xib in Resources */,
+				856220BA1CB6757A00438507 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856220C31CB6757A00438507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856220CE1CB6757A00438507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		466F7EBE1CEF33DA2F3CC09F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F0E15B6D6DA72BBF8846656 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74F1E2730E58B43546167734 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		856220A81CB6757A00438507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856220FD1CB6773C00438507 /* LatesNews.m in Sources */,
+				85789B981CB74476000A5120 /* NewsTableViewCell.m in Sources */,
+				856221011CB67CE000438507 /* LatesNewsViewModel.m in Sources */,
+				85789BAB1CB77C56000A5120 /* ICarWebViewController.m in Sources */,
+				85789BD01CB7A118000A5120 /* BaseViewModel.m in Sources */,
+				856220EE1CB6759100438507 /* NSObject+Netwoking.m in Sources */,
+				85789BB11CB77D4E000A5120 /* UIView+SetRect.m in Sources */,
+				85789BBA1CB78FE9000A5120 /* HomeNewCarViewController.m in Sources */,
+				856220B41CB6757A00438507 /* AppDelegate.m in Sources */,
+				856220EF1CB6759100438507 /* NSObject+Parse.m in Sources */,
+				856220F11CB6759100438507 /* UIView+HUD.m in Sources */,
+				85789BC01CB790A0000A5120 /* HomeMarketViewController.m in Sources */,
+				856220E51CB6758A00438507 /* CarConst.m in Sources */,
+				85789BD71CB7A89C000A5120 /* ICarLoopView.m in Sources */,
+				856220F01CB6759100438507 /* UIScrollView+Refresh.m in Sources */,
+				85789BC61CB7983E000A5120 /* UIImage+initWithColor.m in Sources */,
+				85789BB71CB78F8F000A5120 /* HomeGuideViewController.m in Sources */,
+				856220FA1CB6769B00438507 /* NetManager.m in Sources */,
+				85789BA01CB755B6000A5120 /* HomeLatestNewsViewController.m in Sources */,
+				85789BBD1CB7903E000A5120 /* HomeTestAndCommentViewController.m in Sources */,
+				85789BAE1CB77CCE000A5120 /* UIBarButtonItem+Extension.m in Sources */,
+				856220B11CB6757A00438507 /* main.m in Sources */,
+				85789B9D1CB74697000A5120 /* ICarTabViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856220C11CB6757A00438507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856220CA1CB6757A00438507 /* ICarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856220CC1CB6757A00438507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856220D51CB6757A00438507 /* ICarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		856220C71CB6757A00438507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 856220AB1CB6757A00438507 /* ICar */;
+			targetProxy = 856220C61CB6757A00438507 /* PBXContainerItemProxy */;
+		};
+		856220D21CB6757A00438507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 856220AB1CB6757A00438507 /* ICar */;
+			targetProxy = 856220D11CB6757A00438507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		856220B81CB6757A00438507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				856220B91CB6757A00438507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		856220BD1CB6757A00438507 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				856220BE1CB6757A00438507 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		856220D71CB6757A00438507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		856220D81CB6757A00438507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		856220DA1CB6757A00438507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CB7ECFEE5F59435FE5D7CA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)//ICar/GYCar.pch";
+				INFOPLIST_FILE = ICar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hgy.ICar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		856220DB1CB6757A00438507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87981B9556A5E049D4791F65 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)//ICar/GYCar.pch";
+				INFOPLIST_FILE = ICar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hgy.ICar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		856220DD1CB6757A00438507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ICarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hgy.ICarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICar.app/ICar";
+			};
+			name = Debug;
+		};
+		856220DE1CB6757A00438507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ICarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hgy.ICarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICar.app/ICar";
+			};
+			name = Release;
+		};
+		856220E01CB6757A00438507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ICarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hgy.ICarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ICar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		856220E11CB6757A00438507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ICarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hgy.ICarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ICar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		856220A71CB6757A00438507 /* Build configuration list for PBXProject "ICar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856220D71CB6757A00438507 /* Debug */,
+				856220D81CB6757A00438507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		856220D91CB6757A00438507 /* Build configuration list for PBXNativeTarget "ICar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856220DA1CB6757A00438507 /* Debug */,
+				856220DB1CB6757A00438507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		856220DC1CB6757A00438507 /* Build configuration list for PBXNativeTarget "ICarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856220DD1CB6757A00438507 /* Debug */,
+				856220DE1CB6757A00438507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		856220DF1CB6757A00438507 /* Build configuration list for PBXNativeTarget "ICarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856220E01CB6757A00438507 /* Debug */,
+				856220E11CB6757A00438507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 856220A41CB6757A00438507 /* Project object */;
+}
